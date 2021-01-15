@@ -3,19 +3,13 @@
 
 name = "Apache2"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
-homepage = "http://example.com/"
-tags = []
+licenselink = "https://git.fanyx.xyz/fanyx/hugo-theme-apache2/blob/master/LICENSE"
+description = "A simple theme based on the HTTPD default site and css."
+homepage = "https://git.fanyx.xyz/fanyx/hugo-theme-apache2/"
+tags = ["apache2", "httpd"]
 features = []
 min_version = "0.41.0"
 
 [author]
-  name = ""
-  homepage = ""
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
+  name = "fanyx"
+  homepage = "https://fanyx.xyz"

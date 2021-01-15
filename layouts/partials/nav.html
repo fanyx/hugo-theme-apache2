@@ -1,0 +1,10 @@
+<nav>
+    <div class="section_header">links</div>
+    <div class="content_section_text">
+        <p>/links/</p>
+        {{ range $.Site.Params.Links }}
+            <p>|-- <a href="{{ .Link }}">{{ .Name }}</a></p>
+            <p>|</p>
+        {{ end }}
+    </div>
+</nav>

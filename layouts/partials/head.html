@@ -1,0 +1,14 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device, initial-scale=1">
+    <meta name="author" content="Fanyx">
+    <meta name="referrer" content="no-referrer">
+    {{ hugo.Generator }}
+
+    <title>{{ if .Title }}{{ .Title }} | {{ end }} {{ .Site.Title }}</title>
+    {{- if or .Description .Site.Params.description }}
+    <meta name="description" content="{{ .Description | default .Site.Params.description }}">
+    {{- end }}
+
+    <link rel="stylesheet" type="text/css" href="/css/apache2.css">
+</head>
